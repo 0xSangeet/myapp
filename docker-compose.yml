@@ -1,6 +1,6 @@
 services:
   app:
-    build: x96dbg/myapp:latest
+    image: x96dbg/myapp:latest
     ports:
       - "3000:3000"
   redis:
