@@ -25,4 +25,4 @@ jobs:
       - name: Deploy
         run: |
           docker pull x96dbg/myapp:latest
-          docker compose up -d
+          docker compose up -d --force-recreate
